@@ -72,8 +72,7 @@ pipeline {
 	} 
 	
 	post{
-
-		always{
+        always{
 			echo 'I run always'
 		}
 		success{
